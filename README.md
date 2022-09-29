@@ -4,12 +4,12 @@
 This project developed with pure HTML and TailwindCSS mainly focused on Pure Javascript. <br/>
 
 A music player app which has below features.
-- Play, 
-- Pause, 
-- Volume-up, 
-- Volume-down, 
-- Previous,
-- Next.
+- Play
+- Pause
+- Volume-up 
+- Volume-down
+- Previous
+- Next
 - Repeat the song
 - Duration progress bar
 
