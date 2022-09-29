@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <section
+    class="bg-gradient-to-r from-violet-500 to-fuchsia-500 text-center py-5 md:py-10 bg-gray-800 uppercase text-white">
+    <h1 class="md:text-4xl mb-6 text-xl font-bold ">Music Player App</h1>
+    <div
+      class="flex flex-col justify-center flex-wrap w-[60%] lg:w-[35%] mt-5 shadow-lg shadow-black px-5 py-10 md:px-8 mx-auto uppercase bg-slate-800">
+      <audio hidden id="song">
+        <source src="audios/Unstoppable.mp3" type="audio/mpeg" />
+      </audio>
+      <div class="max-w-full">
+        <h6 class="number-songs text-center text-sm md:text-xl mb-5 capitalize">No of songs</h6>
+        <img class="song-image" src="images/unstoppable.PNG" alt="Song Image" class="max-w-full" />
+        <h3 class="song-name text-xl md:text-4xl mt-5 mb-3">Abc</h3>
+        <p class="song-singer text-slate-400 sm:text-lg capitalizes">Test Singer</p>
+      </div>
+
+      <div class="time_container flex justify-between w-90 lg:w-full mt-6 mb-4 items-center max-w-full">
+        <p class="current-time">00:00</p>
+        <input type="range" min="1" max="100" value="0" class="time-slider w-72" />
+        <p class="total-time">00:00</p>
+      </div>
+      <div class="button-container flex justify-between text-xs md:text-xl mt-8">
+        <button class="btn-repeat">
+          <i class="fa fa-repeat fa-2x text-xl md:text-3xl"></i>
+        </button>
+        <button class="btn-prev">
+          <i class="fa fa-step-backward fa-2x"></i>
+        </button>
+        <button
+          class="btn-play bg-gradient-to-r from-violet-500 to-fuchsia-500 px-5 py-3 rounded-full text-xl  md:text-3xl">
+          <i class="fa-solid fa-play"></i>
+        </button>
+        </button>
+        <button class="btn-next">
+          <i class="fa fa-step-forward fa-2x"></i>
+        </button>
+        <div class="volume-container flex justify-center items-center">
+          <div class="volume-icon flex justify-center items-center  text-lg md:text-2xl">
+            <i class="fa fa-volume-up"></i>
+          </div>
+          <div class="hidden volume-range">
+            <input type="range" min="1" max="100" value="50" class="volume-slider" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+
+
+</body>
+
+</html>
