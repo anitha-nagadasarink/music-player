@@ -9,7 +9,7 @@ A music player app which has below features.
 - Volume-up, 
 - Volume-down, 
 - Previous,
-- Next button.
+- Next.
 - Repeat the song
 - Duration progress bar
 
