@@ -1,4 +1,4 @@
-# Project Name : **Stopwatch App** 
+# Project Name : **Music Player App** 
 ![badge](https://img.shields.io/badge/iNeuron-LCO-green) ![badge](https://img.shields.io/badge/Hitesh--Choudhary-Full%20Stack%20Javascript%20Course-orange)
 
 This project developed with pure HTML and TailwindCSS mainly focused on Pure Javascript. <br/>
@@ -37,11 +37,11 @@ A music player app which has below features.
 
 ### You can Check it Live on Below Link :
 
-[Live Link !](https://new-stopwatch-app-js.netlify.app/)
+[Live Link !](https://new-music-player-app.netlify.app/)
 
 ### Demo :
 
-![App Image](https://github.com/anitha-nagadasarink/stopwatch/blob/Javascript-projects/images/demo.PNG)
+![App Image](https://github.com/anitha-nagadasarink/music-player/blob/Javascript-projects/images/demo.PNG)
 
 
 
